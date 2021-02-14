@@ -1,0 +1,37 @@
+/* .admitcard{
+    width: 800px;
+    height: 724px;
+    border: 2px solid green;
+    position: relative;
+    left: 400px;
+} */
+h2{
+    text-align: center; position: relative; right: 40px; top: 0px;
+}button{
+    color: white ; background-color: red; position: relative; bottom:35px; left: 275px; border-radius: 5px; height: 25px; width:170px;border:none;
+}
+table td{
+    border: 2px solid red;
+    width: 170px;
+    height: 25px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    
+}
+table{
+    border-collapse: collapse;
+}
+fieldset{
+    height: 650px;
+    width: 780px;
+    border: 2px solid green;
+    position: relative;
+    left: 400px;
+    bottom: 25px;
+
+}
+/* body{
+    background-color: rgb(250, 112, 135);
+    color: black;
+} */

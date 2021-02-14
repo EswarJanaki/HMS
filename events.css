@@ -1,0 +1,29 @@
+
+.no{
+    list-style-type: none;
+}
+.event{
+    text-align:left;
+}
+table.event tr th{
+width: 700px;
+border: 2px solid black;
+
+
+}
+table.event tr{
+    padding-bottom: 10px;
+
+}
+table.event{
+    background-color: blanchedalmond;
+}
+.eventdiv{
+    position: relative;
+    top: 20px;
+    left: 400px;
+
+}
+table.event{
+    border-collapse: collapse;
+}

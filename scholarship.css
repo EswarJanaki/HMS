@@ -1,0 +1,15 @@
+p{
+    text-align: left;
+}
+input{
+    position: relative;
+    bottom: 33px;
+    left: 200px;
+    
+}
+select{
+    position: relative;
+    bottom: 33px;
+    left: 200px;
+
+}

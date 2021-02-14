@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="attendance.css">
+</head>
+<body>
+    <div class="div1">
+        <fieldset>
+            <legend>
+                Fill Attendance 
+            </legend>
+            <form action="">
+                <label for="Subjectcode">Enter Subject Code:  </label>
+        
+                <select name="Code" id="Subjectcode">
+                  <option value="EC287">ICA</option>
+                  <option value="CS255">OOPS</option>
+                  <option value="CS251">MOT</option>
+                  <option value="CS254">DBMS</option>
+                  <option value="EC238">DLD</option>
+                </select>
+                <br> <br><br>
+                <label for="Date">Enter Date:  </label><input id="Date" type="date">
+                <br> <br><br>
+                <input type="checkbox" id="Present"> <label for="Present">Mark As Present</label> <br><br>
+                <button style="background-color: blue; color: white; border: 0px; border-radius: 5px; width: 50px; height: 20px; font-weight: bolder;">save</button>
+            </form>
+        </fieldset>
+        <p style="text-decoration: underline; ">Attendance details in this subject : </p>
+        <p>Total no.of days subject held: </p>
+        <p>Total no.of days present:</p>
+        <p>Total no.of days absent:</p>
+    </div>
+    
+</body>
+</html>

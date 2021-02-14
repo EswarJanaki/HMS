@@ -1,0 +1,92 @@
+h3{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    color:blue;
+
+}
+.login{
+    background-color: black;
+    opacity: 0.9;
+    position: relative;
+    left: 620px;
+    top: 300px;
+    width: 300px;
+    height:300px;
+    color: white;
+    border-radius: 10px;
+    
+    
+}
+.login form p,.login form input{
+    position: relative;
+    left: 20px;
+    top:30px;
+}
+input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: black;
+    border-bottom:2px solid white;
+}
+input:focus{
+   
+    background-color:yellow;
+    width: 200px;
+    /* border-radius: 0px solid black; */
+    
+    color:black;
+
+}
+.loginB{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    border: 0px;
+    width: 80px;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    left: 40px;
+
+    
+}
+.forgot{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    text-decoration: none;
+}
+.Ilogin{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-teacher-s-college-classroom-coaching-course-poster-background-image_188494.jpg);
+    background-size: 1700px 1100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.admin,.teacher{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+    position: absolute;
+    height: 30px;
+    
+}
+.admin{
+    top: 20px;
+    right: 30px;
+}
+.teacher{
+    top:20px;
+    right: 100px;
+}
+h1{
+    position: absolute;
+    top: 325px;
+    left: 525px;
+    text-align: center;
+    color: white;
+}

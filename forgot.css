@@ -1,0 +1,47 @@
+input{
+    width: 250px; 
+    border-radius: 5px;
+}
+input:focus{
+    background-color: yellow;
+    color: black;
+}
+button{
+    background-color: blue;
+    border: 0px;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+a{
+    color: black;
+    position: relative;
+    bottom:25px;
+    left: 135px;
+    text-decoration: none;
+}
+.forgot{
+    width: 30%;
+    height: 50%;
+    border: 2px solid black ;
+    position: absolute;
+    top: 200px;
+    padding-top: 20px;
+    left: 500px;
+    text-align: center;
+}
+.linksent{
+    position: relative;
+    bottom: 100px;
+    right: 70px;
+
+}
+h1{
+    position: absolute;
+    top: 325px;
+    left: 525px;
+    text-align: center;
+    /* color: white; */
+}

@@ -1,0 +1,10 @@
+fieldset{
+    width: 500px;
+    /* text-align: center; */
+    /* background-color: yellow; */
+}
+.div1{
+    position: relative;
+    left: 500px;
+    top: 200px;
+}

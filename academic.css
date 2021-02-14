@@ -1,0 +1,76 @@
+table.calender tr
+{
+    padding-bottom: 5px;
+
+
+}
+table.calender tr td,table.calender tr th{
+    padding-right: 20px;
+    text-align: center;
+}
+.tabletime{
+    text-align: left;
+    border-collapse: collapse;
+    background-color: lightyellow;
+}
+table.tabletime th{
+    border: 2px solid greenyellow;
+    width: 500px;
+
+}
+
+.tablediv{
+    width: 500px;
+    background-color: yellow;
+    position: absolute;
+    left: 500px;
+    /* bottom: 500px; */
+    top: 200px;
+}
+button{
+    background-color: white;
+    border: none;
+}
+button.left
+{
+    position: relative;
+    left: 0px;
+}
+button.right
+{
+    position: relative;
+    left: 50px;
+}
+ul{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cale{
+    width: 500px;
+    position: relative;
+    left: 50px;
+    top: 130px;
+}
+.tasks{
+    position: absolute;
+    top: 170px;
+    right: 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: inline-block;
+  }

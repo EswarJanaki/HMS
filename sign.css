@@ -1,0 +1,22 @@
+input[type="text" ]:focus{
+    color: black;
+}
+input[type="text" ]{
+     height: 30px;
+     width: 180px; 
+     color: rgba(100,100,100,.9);
+     font-size: 20px;
+}
+input.big{
+    width: 390px;
+    height: 30px;
+    font-size: 20px;
+}
+body{
+    
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-teacher-s-college-classroom-coaching-course-poster-background-image_188494.jpg);
+        background-size: 1600px 1500px;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+}

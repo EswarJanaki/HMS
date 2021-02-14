@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+}
+table  td{
+    border: 2px solid black;
+    width: 500px;
+    height: 30px;
+    background-color: burlywood;
+    
+
+}
+input{
+    border: none;
+    width: 500px;
+    height: 25px;
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+input:focus{
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

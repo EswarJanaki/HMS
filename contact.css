@@ -1,0 +1,73 @@
+.info{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+
+}
+.info h2{
+    text-decoration: underline;
+
+}
+.heading{
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+    right: 25px;
+}
+
+div i{
+    padding-right: 350px;
+    width: 200px;
+    height: 100px;
+}
+div.icon{
+    position: relative;
+    left: 700px;
+    bottom: 60px;
+}
+
+th{
+    height: 80px;
+}
+table{
+    border: 2px solid black;
+} 
+table{
+    border-spacing:15px 0px ;
+    border-collapse: collapse;
+    
+    
+}
+table th{
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 75pxpx;
+    text-align: center;
+    
+}
+table td{
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 500px;
+    height: 75px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+table td:hover{
+    border:1px solid darkblue;
+    background-color: darkkhaki;
+    color: greenyellow;
+}
+table th:hover{
+    border:1px solid darkblue;
+    background-color: green;
+    color: whitesmoke;
+}
+.tableinfo{
+    position: absolute;
+    top: 300px;
+    left: 275px;
+}
